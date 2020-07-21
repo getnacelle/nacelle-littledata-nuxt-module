@@ -1,0 +1,11 @@
+{
+  "name": "@nacelle/nacelle-littledata-nuxt-module",
+  "version": "1.0.0",
+  "description": "Integrates Littledata into your Nacelle Nuxt project",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
