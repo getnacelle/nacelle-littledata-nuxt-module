@@ -1,4 +1,4 @@
-# nacelle-gorgias-nuxt-module
+# nacelle-littledata-nuxt-module
 
 Adds Nuxt plugin for integrating [LittleData](https://www.littledata.io/) in your [Nacelle](https://getnacelle.com/) Nuxt project.
 
