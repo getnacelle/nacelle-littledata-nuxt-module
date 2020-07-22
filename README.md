@@ -28,7 +28,7 @@ modules: [
 ],
 ```
 
-Then add your the little data client id to your checkout process in `cart.js` by using the new function that has been added to your project `$getLittleDataMetafield` like so:
+Then add the little data client id to your checkout process in `cart.js` by using the new function that has been added to your project `$getLittleDataMetafield` like so:
 
 ```
 const processCheckoutObject = await this.$nacelle.checkout
