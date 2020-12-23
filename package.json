@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "Integrates Littledata into your Nacelle Nuxt project",
   "main": "lib/module.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "jest test",
     "release": "standard-version && git push --follow-tags && npm publish"
