@@ -1,12 +1,25 @@
 {
   "name": "@nacelle/nacelle-littledata-nuxt-module",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Integrates Littledata into your Nacelle Nuxt project",
   "main": "lib/module.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.16.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.0.0"
+  }
 }
