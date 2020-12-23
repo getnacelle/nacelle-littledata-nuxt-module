@@ -1,6 +1,6 @@
 {
   "name": "@nacelle/nacelle-littledata-nuxt-module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Integrates Littledata into your Nacelle Nuxt project",
   "main": "lib/module.js",
   "files": [
