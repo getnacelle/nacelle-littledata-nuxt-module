@@ -35,7 +35,7 @@ const processCheckoutObject = await this.$nacelle.checkout
   .process({
     cartItems: getters.checkoutLineItems,
     checkoutId: getters.checkoutIdForBackend,
-    atrributes: [await this.$getLittledataAttribute()]
+    customAttributes: [await this.$getLittledataAttribute()]
   })
   ...
 ```
