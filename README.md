@@ -28,14 +28,14 @@ modules: [
 ],
 ```
 
-Then add the Google Analytics client ID to your checkout process in `cart.js` by using the new function that has been added to your project `$getLittledataAttribute` like so:
+Then add the Google Analytics client ID to your checkout process in `cart.js` by using the new function that has been added to your project `$getLittledataMetafield` like so:
 
 ```
 const processCheckoutObject = await this.$nacelle.checkout
   .process({
     cartItems: getters.checkoutLineItems,
     checkoutId: getters.checkoutIdForBackend,
-    customAttributes: [await this.$getLittledataAttribute()]
+    metafields: [await this.$getLittledataMetafield()]
   })
   ...
 ```
