@@ -30,11 +30,9 @@ modules: [
 Finally, use the `$getLittledataMetafield` function to add the Google Analytics client ID to `$nacelle.checkout.process`:
 
 ```js
-const processCheckoutObject = await this.$nacelle.checkout
-  .process({
-    cartItems: getters.checkoutLineItems,
-    checkoutId: getters.checkoutIdForBackend,
-    metafields: [await this.$getLittledataMetafield()]
-  })
-  ...
+const processCheckoutObject = await this.$nacelle.checkout.process({
+  cartItems: getters.checkoutLineItems,
+  checkoutId: getters.checkoutIdForBackend,
+  metafields: [await this.$getLittledataMetafield()],
+});
 ```
